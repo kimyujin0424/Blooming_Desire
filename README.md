@@ -1,5 +1,7 @@
 # 🌸 Blooming Desire
 
+<img src="IMG/white.png" width="300"/> 
+
 ### Gaze-based Unconscious Self Exploration Interactive Media Art
 
 **시선 트래킹을 활용한 무의식적 자아 탐구 인터랙티브 미디어 아트 전시**
@@ -228,13 +230,6 @@ Blooming Desire는 시선 데이터를 **진단 도구로 사용하지 않습니
 - **Video & Narrative**: Kim Donghee
 - **Development**: Park Kijeong, Park Yigyeong, Kim Sara
 
----
-
-## 📎 License
-
-This project is shared for **educational and portfolio purposes**.
-
-Please contact the author for reuse, exhibition, or collaboration inquiries.
 
 ---
 
