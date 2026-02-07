@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eye Tracking Experience</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .hidden {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <!-- 🎥 배경 영상 -->
+<video id="background-video" playsinline>
+  <source src="sample.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
+
+  <!-- ⏱ 타이머 (초기엔 숨김) -->
+  <div id="video-timer" class="hidden">00:00</div>
+
+  <!-- 👁️ 시선 정보 (초기엔 숨김) -->
+  <div id="gazeInfo" class="hidden">Gaze Tracking Info</div>
+
+  <!-- 🎯 시선 시각화용 캔버스 -->
+  <canvas id="output"></canvas>
+
+  <!-- ▶️ 시작 버튼 -->
+  <button id="start-button">START</button>
+
+  <!-- 📜 메인 로직 -->
+  <script src="index.js" type="module"></script>
+</body>
+</html>

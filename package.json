@@ -1,0 +1,17 @@
+{
+  "name": "seeso-web-sample",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npm run gaze",
+    "gaze": "cross-env NODE_ENV=development node devServer.js samples/gaze/index.html 8082",
+    "start:osc": "node osc_server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "express": "^4.21.2",
+    "open": "^8.2.1",
+    "osc": "^2.4.5",
+    "parcel-bundler": "^1.12.4"
+  }
+}
